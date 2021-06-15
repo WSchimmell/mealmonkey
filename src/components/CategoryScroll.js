@@ -1,11 +1,12 @@
 import Categories from './Categories';
+import './Scroll.scss';
 const CategoryScroll = () => {
     return (
-        <section>
-            <Categories image="https://via.placeholder.com/150" name="Offers" />
-            <Categories image="https://via.placeholder.com/150" name="Sri Lankan" />
-            <Categories image="https://via.placeholder.com/150" name="Italien" />
-            <Categories image="https://via.placeholder.com/150" name="Indian" />
+        <section className="categories">
+            <Categories image="https://via.placeholder.com/150" text="Offers" />
+            <Categories image="https://via.placeholder.com/150" text="Sri Lankan" />
+            <Categories image="https://via.placeholder.com/150" text="Italien" />
+            <Categories image="https://via.placeholder.com/150" text="Indian" />
         </section>
      );
 }
