@@ -5,7 +5,7 @@ import CategoryScroll from './components/CategoryScroll';
 import MiddleSection from './components/MiddleSection';
 import TopMessage from './components/TopSection';
 import MiddleScroll from './components/MiddleScroll';
-// import Meals from './components/Meals'
+import Meals from './components/Meals'
 // import Counter from './components/Counter';
 import TheMeal from './components/TheMeal';
 
