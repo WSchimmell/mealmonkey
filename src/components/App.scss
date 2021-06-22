@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    padding: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.heading{
+    display: flex;
+}
+.btn{
+    display: inline-block;
+    background: transparent;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+.inputMeal{
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid grey;
+    color: rgba(0, 0, 0, 0.73);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 4px 1px rgba(0,0,0,.18);
+}
+.inputMeal input{
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    align-items: center;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.73);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inputMeal ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+}
+.inputMeal ul::before{
+    content: "";
+}
+.inputMeal li{
+     padding: 10px 5px;
+}
+
+.categories{
+    display: flex;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.pix,
+.most_selection{
+    display: flex;  
+}
+.pix img{ 
+    width: 88px;
+    height: 114px;
+    margin: 50px 10px 0;
+    border-radius: 15%;
+    border-spacing: 5%;
+}
+.inputMeal__icon{
+    box-sizing: border-box;
+    font-size: 2.5rem;
+    margin-left: 1px;
+    margin-top: 0;
+    position: absolute;
+    transition: all .25s ease-in;
+    padding: .7rem;
+    border-radius: 50%;
+}
+.pix__text{
+    text-align: center;
+}
+.main,
+.most,
+.recent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.main p,
+.main__p,
+.most p,
+.recent p{
+    color: #FC6011;
+}
+.main__img{ 
+    width: 100%;
+    max-height: 100%;
+}
+.main_section{
+    margin: 30px 0 30px 0;
+}
+.most_selection{
+    display: flex;
+    columns: 2;
+}
+.most__img{
+    width: 228px;
+    height: 135;
+}
+.recent{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 10px 0;
+    margin: 15px 0;
+}
+.recent__section{
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+}
+.recent__img {
+    margin-right:10px;
+    width: 66px;
+    border-radius: 15%;
+  }
+  .recent__row {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    padding: 10px 0;
+  }
+  .recent__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+  
